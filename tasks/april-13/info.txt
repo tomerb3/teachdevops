@@ -1,1 +1,28 @@
-.
+Hi Yair
+your fisrt task is : 
+
+1. go to     ~/src/teachdevops/solutions/april-13/
+   create folder in there with the name : "yair" 
+   go inside this folder 
+
+2. create empty file there name: "what-commands-i-used.txt"
+   put inside this file the commands you did to do phase 3 - 7  
+
+3. inside "yair" folder, create file "file1.txt" and put these lines inside the file: 
+
+"abc 2025 ddd"
+"kuku 1000 tomer"
+
+4. show me the content of file "file1.txt" and put this content in "file2.txt" with one command you learned from me .
+
+5. run these commands: 
+    
+    cd ~/src/teachdevops/
+    git status 
+    git add .
+    git commit -m "final commit for april-13 task for tomer"
+    git push
+
+6. tell me to run in my computer 
+
+    git pull 
