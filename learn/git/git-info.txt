@@ -1,0 +1,12 @@
+git status        # show change and info
+git diff          # show diff and details ( to exit :q )
+git add <file or folder name> # add file or folder to commit
+
+git add .         # add all change from pwd to git
+git commit -m "msg text words"    # details ( msg ) 
+
+git commit -am "msg"       # git add .    plus  git message  
+
+git push     # git push to cloud 
+
+git pull   # load data from git cloud

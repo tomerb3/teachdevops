@@ -1,7 +1,27 @@
-folder # תיקייה
-file # קובץ
-pwd # location
-cd <name> # jump to folder 
+folder           # תיקייה 
+file             # קובץ
+pwd              # location
+cd < folder name># jump to folder 
+cat <file name>  # show inside
+clear            # delete
+cd ..            # go back one time
+cd ../../ ...    # go back many times
+cd /tmp          # jump to folder tmp ( tmp is folder with acess to everyone)
+ls               # show folders and files
+ls -ltr show folders and files with info
+mkdir <folder name>     # create folder
+touch <file name>     # crete file 
+echo "word1 word 2" # print to the screen
+
+echo "word1 word 2" >  /tmp/kuku/yair.txt              #  create or empty file with 1 line  if folder dont exist i get error
+echo "word1 word 2" >  yair.txt               # create or empty file in pwd (current location) 
+
+echo "sadawsdasd asdsad" >> file.txt           # add to last line this text in file 
+
+rm <file name>         # delete file
+rm -f <file name>      # delete name by force
+rm -rf <folder name>   # delete folder by force !!!!!!!!!!!!! very dangerous !!!!!!!!!!!!!!! 
+
 
 
 
