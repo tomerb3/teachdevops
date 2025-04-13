@@ -1,1 +1,14 @@
-a
+vi < file name > 
+i # write mode where i santd 
+a # write more one spot right
+esc # exit of i or a
+:wq # exit vi with save 
+:q! # exit vi without to save
+dd # delete line
+3dd # delete 3 lines
+x # delete char
+xx # delete 2 chars
+yy # copy line to memory
+p # paste from memory
+
+

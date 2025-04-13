@@ -25,3 +25,12 @@ rm -rf <folder name>   # delete folder by force !!!!!!!!!!!!! very dangerous !!!
 cat file1 > file2    # all the computerin file1 moves to file2
 
 cp file 1 file 2      # they both do same
+history     # show commands i did in linux
+history | tail -20     # show me the last 20 lines of history commands i did 
+
+history |head -5  # show me the first 5 lines of history
+
+cat file1 |wc -l   # count lines in content file1
+
+cat file1 |tail -2 |wc -c      # count char of last 2 lines in file1
+
