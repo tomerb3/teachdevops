@@ -1,0 +1,9 @@
+  391  cd solutions
+  392  cd april-13
+  393  mkdir yair
+  394  cd yair
+  395  touch "what-commands-i-used.txt"
+  401  echo "abc 2025 ddd" > file1.txt
+  402  echo "kuku 1000 tomer" >> file1.txt
+  403  cat file1.txt
+  406  cp file1.txt file2.txt 
