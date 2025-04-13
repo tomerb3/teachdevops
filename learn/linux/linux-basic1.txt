@@ -1,18 +1,7 @@
-cd         # jump to home folder
+folder # תיקייה
+file # קובץ
+pwd # location
+cd <name> # jump to folder 
 
-cd <name>  # go to folder <name> 
-           cd /tmp
-           cd ~/src/itc-test1
-           cd ..                    # go back one folder
-           cd ../../                # go back two folders
-
-pwd        # show me what the path i am stand in
-
-touch <file>    # create empty file
-
-echo "text1 string" > /tmp/file1.txt        #erase the file with this one line text
-
-
-echo "second line text1 text2 " >> /tmp/file1.txt        #add this line to the EOF
 
 
