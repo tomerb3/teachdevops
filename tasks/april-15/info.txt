@@ -1,4 +1,4 @@
-create bash script that   view log1.log content
+create bash script run.sh   that   view log1.log content
 
 filter it like this:  only lines with ERROR
     also only lines with "[EC2Identity]"
