@@ -1,0 +1,11 @@
+create bash script that   view log1.log content
+
+filter it like this:  only lines with ERROR
+    also only lines with "[EC2Identity]"
+    then filter it by regular expression    dot and number number 18 
+                                    examples:   .4618
+                                                .1218
+                                                .9918
+
+and show them , plus create parameter "number1" and put inside the number of lines you see in result
+

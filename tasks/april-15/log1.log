@@ -1,0 +1,100 @@
+2025-04-15T18:44:58.491576+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2025-04-15T18:44:58.491727+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: Initializing new seelog logger
+2025-04-15T18:44:58.491766+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: New Seelog Logger Creation Complete
+2025-04-15T18:44:58.491787+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2025-04-15T18:44:58.591890+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 INFO Proxy environment variables:
+2025-04-15T18:44:58.692863+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 INFO https_proxy:
+2025-04-15T18:44:58.793566+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 INFO http_proxy:
+2025-04-15T18:44:58.894169+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 INFO no_proxy:
+2025-04-15T18:44:58.994545+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4915 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:44:59.094888+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:44:58.4916 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:01.638502+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:01.6379 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:01.638726+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: :
+2025-04-15T18:45:01.638793+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: #011status code: 0, request id:
+2025-04-15T18:45:01.638826+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: RequestError: send request failed
+2025-04-15T18:45:01.638880+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:01.738611+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:01.6379 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:01.839032+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:01.6379 ERROR Agent failed to assume any identity
+2025-04-15T18:45:01.939763+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:01.6379 ERROR failed to find identity, retrying: failed to find agent identity
+2025-04-15T18:45:02.139262+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:02.1390 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:02.239506+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:02.1390 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:05.291584+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.2913 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:05.291674+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: :
+2025-04-15T18:45:05.291697+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: #011status code: 0, request id:
+2025-04-15T18:45:05.291715+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: RequestError: send request failed
+2025-04-15T18:45:05.291735+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:05.391769+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.2913 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:05.492045+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.2913 ERROR Agent failed to assume any identity
+2025-04-15T18:45:05.592395+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.2913 ERROR failed to find identity, retrying: failed to find agent identity
+2025-04-15T18:45:05.791923+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.7917 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:05.892216+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:05.7917 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:08.915666+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:08.9153 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:08.915820+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: :
+2025-04-15T18:45:08.915853+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: #011status code: 0, request id:
+2025-04-15T18:45:08.915862+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: RequestError: send request failed
+2025-04-15T18:45:08.915887+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:08.915921+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:08.9154 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:08.915970+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:08.9154 ERROR Agent failed to assume any identity
+2025-04-15T18:45:08.915994+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:08.9154 ERROR failed to get identity: failed to find agent identity
+2025-04-15T18:45:08.916025+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419361]: 2025-04-15 18:45:08.9154 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2025-04-15T18:45:08.917055+03:00 DESKTOP-NVT6CBN systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2025-04-15T18:45:09.215258+03:00 DESKTOP-NVT6CBN systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 30237.
+2025-04-15T18:45:09.217867+03:00 DESKTOP-NVT6CBN systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2025-04-15T18:45:09.248201+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2025-04-15T18:45:09.248315+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: Initializing new seelog logger
+2025-04-15T18:45:09.248366+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: New Seelog Logger Creation Complete
+2025-04-15T18:45:09.248395+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2481 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2025-04-15T18:45:09.348843+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2482 INFO Proxy environment variables:
+2025-04-15T18:45:09.448135+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2482 INFO http_proxy:
+2025-04-15T18:45:09.548464+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2482 INFO no_proxy:
+2025-04-15T18:45:09.648617+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2482 INFO https_proxy:
+2025-04-15T18:45:09.748917+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2482 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:09.849222+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:09.2483 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:12.357257+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.3562 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:12.357437+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: :
+2025-04-15T18:45:12.357465+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: #011status code: 0, request id:
+2025-04-15T18:45:12.357488+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: RequestError: send request failed
+2025-04-15T18:45:12.357599+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:12.457331+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.3563 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:12.557600+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.3563 ERROR Agent failed to assume any identity
+2025-04-15T18:45:12.658046+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.3563 ERROR failed to find identity, retrying: failed to find agent identity
+2025-04-15T18:45:12.857025+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.8566 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:12.957424+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:12.8567 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:14.722682+03:00 DESKTOP-NVT6CBN systemd-resolved[262]: Clock change detected. Flushing caches.
+2025-04-15T18:45:17.445096+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.4443 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:17.445271+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: :
+2025-04-15T18:45:17.445374+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: #011status code: 0, request id:
+2025-04-15T18:45:17.445478+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: RequestError: send request failed
+2025-04-15T18:45:17.445590+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:17.545409+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.4444 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:17.646381+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.4444 ERROR Agent failed to assume any identity
+2025-04-15T18:45:17.747080+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.4444 ERROR failed to find identity, retrying: failed to find agent identity
+2025-04-15T18:45:17.945602+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.9453 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:18.046354+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:17.9454 INFO Checking if agent identity type EC2 can be assumed
+2025-04-15T18:45:21.072652+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:21.0718 ERROR [EC2Identity] Failed to get instance info from IMDS. Err: failed to get identity instance id. Error: EC2MetadataError: failed to get IMDSv2 token and fallback to IMDSv1 is disabled
+2025-04-15T18:45:21.072964+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: :
+2025-04-15T18:45:21.073029+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: #011status code: 0, request id:
+2025-04-15T18:45:21.073060+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: RequestError: send request failed
+2025-04-15T18:45:21.073123+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: caused by: Put "http://169.254.169.254/latest/api/token": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025-04-15T18:45:21.073213+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:21.0718 INFO Checking if agent identity type CustomIdentity can be assumed
+2025-04-15T18:45:21.073267+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:21.0718 ERROR Agent failed to assume any identity
+2025-04-15T18:45:21.073308+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:21.0718 ERROR failed to get identity: failed to find agent identity
+2025-04-15T18:45:21.073357+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419435]: 2025-04-15 18:45:21.0718 ERROR Error occurred when starting amazon-ssm-agent: failed to get identity: failed to find agent identity
+2025-04-15T18:45:21.074832+03:00 DESKTOP-NVT6CBN systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Deactivated successfully.
+2025-04-15T18:45:21.081215+03:00 DESKTOP-NVT6CBN wsl-pro-service[285]: #033[36mINFO#033[0m Daemon: connecting to Windows Agent
+2025-04-15T18:45:21.081384+03:00 DESKTOP-NVT6CBN wsl-pro-service[285]: #033[37mDEBUG#033[0m Updated systemd status to "Connecting"
+2025-04-15T18:45:21.081838+03:00 DESKTOP-NVT6CBN wsl-pro-service[285]: #033[33mWARNING#033[0m Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/baum/.ubuntupro/.address": open /mnt/c/Users/baum/.ubuntupro/.address: no such file or directory
+2025-04-15T18:45:21.081967+03:00 DESKTOP-NVT6CBN wsl-pro-service[285]: #033[36mINFO#033[0m Reconnecting to Windows host in 60 seconds
+2025-04-15T18:45:21.082020+03:00 DESKTOP-NVT6CBN wsl-pro-service[285]: #033[37mDEBUG#033[0m Updated systemd status to "Not connected: waiting to retry"
+2025-04-15T18:45:21.404432+03:00 DESKTOP-NVT6CBN systemd[1]: snap.amazon-ssm-agent.amazon-ssm-agent.service: Scheduled restart job, restart counter is at 30238.
+2025-04-15T18:45:21.406188+03:00 DESKTOP-NVT6CBN systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2025-04-15T18:45:21.435081+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2025-04-15T18:45:21.435225+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: Initializing new seelog logger
+2025-04-15T18:45:21.435285+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: New Seelog Logger Creation Complete
+2025-04-15T18:45:21.435424+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2025-04-15T18:45:21.535259+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO Proxy environment variables:
+2025-04-15T18:45:21.635197+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO http_proxy:
+2025-04-15T18:45:21.735359+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO no_proxy:
+2025-04-15T18:45:21.835837+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO https_proxy:
+2025-04-15T18:45:21.936638+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO Checking if agent identity type OnPrem can be assumed
+2025-04-15T18:45:22.036958+03:00 DESKTOP-NVT6CBN amazon-ssm-agent.amazon-ssm-agent[2419565]: 2025-04-15 18:45:21.4350 INFO Checking if agent identity type EC2 can be assumed
