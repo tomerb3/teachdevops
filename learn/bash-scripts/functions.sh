@@ -1,8 +1,13 @@
-#!/bin/bash  -x
+#!/bin/bash 
 
 
 
-yair1(){
-	echo you are inside function yair1 have fun
+ #===function area ======================================
 
+func1(){
+   num=`expr $a + 5` 
+   echo num is $num
 }
+
+#===================================================
+

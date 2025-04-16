@@ -1,23 +1,24 @@
-#!/bin/bash 
-set -x
+#!/bin/bash -x
 
 
-
-add_2(){
-   num=`expr $a + 2` 
-   echo $num
+func1(){
+   num=`expr $a + 5` 
+   echo num is $num !!!!!!!!!!!!!!!!!!!!!
 }
-export a=2
-add_2
 
-add_2
-sleep 2
-add_2
-echo ===2
 
-sleep 2
-a=$num add_2
-echo ===3
-a=$num add_2
-echo ===4
+#source functions.sh 
+
+
+
+
+
+export a=5
+
+func1
+
+a=$num func1
+
+a=$num func1
+
 
