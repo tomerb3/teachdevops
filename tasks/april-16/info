@@ -1,0 +1,9 @@
+update .zshrc       the alias gg
+
+#   i want it to go to base folder of your git
+git add .
+git commit -m 'add files'
+git push
+
+
+
