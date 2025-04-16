@@ -2,17 +2,18 @@
 
 tomer1(){
   cat log1.log |tail -10 
-  echo ===================
+  echo ===================1
 }
+
 tomer2(){
   cat log1.log |tail -10 
-  echo ===================
+  echo ===================2
 }
 
 
 tomer3(){
   cat log1.log |tail -10 
-  echo ===================
+  echo ===================3 # line
 }
 
 
