@@ -34,3 +34,11 @@ cat file1 |wc -l   # count lines in content file1
 
 cat file1 |tail -2 |wc -c      # count char of last 2 lines in file1
 
+id
+
+sudo ls
+
+sudo touch tomer.txt
+
+root is the most powerfull use in the linux
+
